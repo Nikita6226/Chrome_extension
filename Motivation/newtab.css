@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #84fab0, #dc364e);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.quote-container {
+    text-align: center;
+}
+
+#quote {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

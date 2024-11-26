@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Motivational New Tab",
+  "version": "1.0",
+  "description": "Shows a motivational quote whenever you open a new tab.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
